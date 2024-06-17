@@ -1,0 +1,149 @@
+/*nromal*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3366cc;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 90%;
+    max-width: 600px;
+    max-height: 800px;
+    background-color: #0de018;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333333;
+    margin-top: 20px;
+}
+
+.input-group {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0de018;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0de018;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0de018;
+}
+
+/* Estilos para Tela de Matérias */
+.container.materias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 90%;
+    max-width: 600px;
+    max-height: 800px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.header .logo {
+    width: 100px;
+    height: 100px;
+}
+
+.content {
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subject-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.subject-button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.subject-button:hover {
+    background-color: #357ABD;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #4a90e2;
+    border-radius: 8px;
+}
+
+.footer-button {
+    background-color: rgb(21, 18, 211);
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.footer-button:hover {
+    background-color: #dddddd;
+}
